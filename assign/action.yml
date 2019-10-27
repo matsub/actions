@@ -1,0 +1,9 @@
+# action.yml
+name: 'Assign Reviewer'
+description: 'Assign PR Reviewer randomly, chosen from its collaborator.'
+outputs:
+  time: # id of output
+    description: 'The time we greeted you'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
